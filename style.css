@@ -1,0 +1,42 @@
+body {
+  padding: 0;
+  background: #eb4545;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  overflow: hidden;
+}
+
+main {
+  width: 500px;
+}
+
+main div {
+  display: flex;
+  align-items: center;
+}
+
+main div img {
+  margin-right: 1rem;
+  width: 64px;
+  height: 64px;
+}
+
+main h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: thin;
+  font-size: 23px;
+  line-height: 32px;
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+#profil {
+  border-radius: 35px;
+}
